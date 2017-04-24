@@ -1,5 +1,5 @@
 /**
- * Created by chuck7 on 16/8/22.
+ * Changed by han on 16/8/22.
  */
 import List from 'components/PostList.vue'
 import Post from 'components/Post.vue'

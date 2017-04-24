@@ -1,5 +1,5 @@
 /**
- * Created by chuck7 on 16/9/8.
+ * Changed by han on 16/9/8.
  */
 import "./stylus/index.styl"
 import Vue from "vue";

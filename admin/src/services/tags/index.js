@@ -1,5 +1,5 @@
 /**
- * Created by chuck7 on 16/9/19.
+ * Changed by han on 16/9/19.
  */
 import api from '../index.js'
 export default {

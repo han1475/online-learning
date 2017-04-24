@@ -1,5 +1,5 @@
 /**
- * Created by chuck7 on 16/8/15.
+ * Changed by han on 16/8/15.
  */
 "use strict"
 const jwt = require("jsonwebtoken"),

@@ -1,5 +1,5 @@
 /**
- * Created by chuck7 on 16/8/7.
+ * Changed by han on 16/8/7.
  */
 "use strict"
 const token = require('./token.js');

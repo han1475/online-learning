@@ -1,5 +1,5 @@
 /**
- * Created by chuck7 on 16/9/16.
+ * Changed by han on 16/9/16.
  */
 import marked from 'marked';
 import {trim} from '../lib/utils'

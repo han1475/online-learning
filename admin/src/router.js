@@ -1,5 +1,5 @@
 /**
- * Created by chuck7 on 16/9/8.
+ * Changed by han on 16/9/8.
  */
 import Vue from "vue";
 import VueRouter from "vue-router";

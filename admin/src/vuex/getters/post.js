@@ -1,5 +1,5 @@
 /**
- * Created by chuck7 on 16/7/30.
+ * Changed by han on 16/7/30.
  */
 export const postList = ({post}) => {
   return post.all;

@@ -1,5 +1,5 @@
 /**
- * Created by chuck7 on 16/8/14.
+ * Changed by han on 16/8/14.
  */
 "use strict"
 const Logger = require('mini-logger'),

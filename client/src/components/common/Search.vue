@@ -1,5 +1,5 @@
 /**
-* Created by hanxiaojun on 17/4/21.
+* Changed by hanxiaojun on 17/4/21.
 */
 <template>
   <form id="search-form">
@@ -14,14 +14,13 @@
     ].forEach(function (selector) {
       if (!document.querySelector(selector)) return
       // search index defaults to v2
-      var match = window.location.pathname.match(/^\/(v\d+)/)
-      var version = match ? match[1] : 'v2'
+      //var match = window.location.pathname.match(/^\/(v\d+)/)
       docsearch({
         appId: 'BH4D9OD16A',
         apiKey: '5638280abff9d207417bb03be05f0b25',
         indexName: 'vuejs_cn2',
         inputSelector: selector,
-        algoliaOptions: {facetFilters: ["version:" + version]}
+        algoliaOptions: {facetFilters: ["version:v2"]}
       })
     })
   }
