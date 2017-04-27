@@ -81,14 +81,14 @@
   function addHeaderToArr (resultArr,domArr, index, level) {
     let i = index
     for(; i < domArr.length;){
-      if(~~domArr[i].tagName[1] === level){
+      if(~~domArr[i].tagName[1]===level){
         resultArr.push(new CatalogNode(domArr[i].innerText, domArr[i]));
         i++;
-      } else if (~~domArr[i].tagName[1] > level) {
+      } else if (~~domArr[i].tagName[1]>level) {
         let currentArr = [];
         i += addHeaderToArr(currentArr, domArr, i, level+1);
         resultArr.push(currentArr);
-      } else if (~~domArr[i].tagName[1] < level) {
+      } else if (~~domArr[i].tagName[1] <level) {
         return i - index;
       }
     }
@@ -113,9 +113,11 @@
       buildCatalog () {
         this.$nextTick(() => {
           let doms = document.querySelectorAll(`#${this.domId} h1,#${this.domId} h2,#${this.domId} h3`)
+          console.log(doms);
           let result = []
-          addHeaderToArr(result, doms, 0, 2)
+          addHeaderToArr(result, doms, 0, 1)
           this.nodeArr = result
+          console.log(result);
         })
       },
       toTop () {

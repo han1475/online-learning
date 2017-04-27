@@ -15,8 +15,7 @@
         <span class="tag" v-for="tag in tags"><a v-link="'/tags'" class="tag-link active">{{tag.name}}</a></span>
       </div>
     </article>
-    <!--PC版-->
-    <div id="SOHUCS" ></div>
+    <comment></comment>
     <pagination :next="nextArticle !== null" :next-link="nextArticle?'/posts/'+nextArticle._id:''" :next-word="nextArticle&&nextArticle.title" :prev="prevArticle !== null" :prev-link="prevArticle?'/posts/'+prevArticle._id:''" :prev-word="prevArticle&&prevArticle.title" ></pagination>
   </div>
 </template>
@@ -45,11 +44,13 @@
   import Pagination from './common/Pagination.vue'
   import Catalog from './common/Catalog.vue'
   import service from '../services/post/index'
+  import Comment from './common/comment.vue'
   // import {markdown} from '../filters/index.js'
   export default {
     components: {
       Pagination,
-      Catalog
+      Catalog,
+      Comment
     },
     data () {
       return {
@@ -117,8 +118,4 @@
       }
     }
   }
-  window.changyan.api.config({
-    appid: 'cysXq63Ld',
-    conf: 'prod_90c17ff48c610f5dca0d6542a9111148'
-  });
 </script>
