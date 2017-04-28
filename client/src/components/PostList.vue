@@ -14,7 +14,7 @@
       </p>
 
       <footer>
-        <a v-link="'/posts/'+post['_id']">... continue reading</a>
+        <a v-link="'/posts/'+post['_id']">继续学习</a>
       </footer>
 
     </article>

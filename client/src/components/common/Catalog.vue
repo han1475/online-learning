@@ -117,7 +117,6 @@
           let result = []
           addHeaderToArr(result, doms, 0, 1)
           this.nodeArr = result
-          console.log(result);
         })
       },
       toTop () {

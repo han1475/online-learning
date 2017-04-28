@@ -9,6 +9,8 @@
     "build-client": "node client/build/build.js",
     "dev-admin": "node admin/build/dev-server.js",
     "build-admin": "node admin/build/build.js",
+    "dev-teacher": "node teacher/build/dev-server.js",
+    "build-teacher": "node teacher/build/build.js",
     "test": "",
     "dev-server": "NODE_ENV=development DEBUG=kov-blog supervisor --harmony server/index.js"
   },

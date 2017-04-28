@@ -19,7 +19,7 @@ let config = {
   debug:false,
   env:'production',
   mongoConfig: { // 数据库配置
-    url: 'mongodb://localhost:27017/kov-blog',
+    url: 'mongodb://localhost:27117/kov-blog',
     opts:{
       user:'',
       pass:''
