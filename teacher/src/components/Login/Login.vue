@@ -8,7 +8,7 @@
       <section class="login-box">
         <div class="login-header">
           <h3>
-            在线学习网站后台登录(管理员)
+            在线学习网站后台登录(老师)
           </h3>
         </div>
         <div class="login-body">

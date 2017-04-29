@@ -14,7 +14,7 @@
       </p>
 
       <footer>
-        <a v-link="'/posts/'+post['_id']">继续学习</a>
+        <a v-link="'/posts/'+post['_id']">继续学习</a>npm
       </footer>
 
     </article>
